@@ -23,7 +23,7 @@ servo.start(0)
 abierto = int(input("Esperando: "))
 
 ###################################
-#Condicionante para abrir puerta
+#Condicionante 
 ###################################
 if (abierto == 1):
 
