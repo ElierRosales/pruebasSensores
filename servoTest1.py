@@ -22,6 +22,9 @@ servo = GPIO.PWM(11, 50) # 12 es el pin y 50 el pulso en Hz
 servo.start(0)
 abierto = int(input("Esperando: "))
 
+###################################
+#Condicionante para abrir puerta
+###################################
 if (abierto == 1):
 
     print("Puerta abierta")
